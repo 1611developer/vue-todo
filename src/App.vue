@@ -99,7 +99,6 @@ onMounted(() => {
     </section>
 
     <section class="todo-list">
-      <h3>TODO List</h3>
       <div class="list">
         <div v-for="todo in todos_asc" :class="`todo-item ${todo.done && 'done'}`">
           <label>

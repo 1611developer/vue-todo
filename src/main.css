@@ -40,7 +40,6 @@ body {
 }
 
 .app {
-	
 	border-width: 20px;
 	border-color: white;
 	border-style: solid;
@@ -217,6 +216,8 @@ input:checked ~ .bubble::after {
 .todo-item .todo-content input {
 	color: var(--dark);
 	font-size: 1.125rem;
+	width: 400px;
+	
 }
 
 .todo-item .actions {
@@ -250,3 +251,4 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
